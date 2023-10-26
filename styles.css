@@ -1,8 +1,10 @@
 .body {
     display: flex;
     flex-direction: column;
+    align-items: center;
     font-family: "roboto";
-
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .header {
@@ -11,7 +13,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 0 16px;
-    
+    background-color: #1F2937;
 }
 
 .header-links {
@@ -27,4 +29,64 @@ ul {
 a {
     text-decoration: none;
     padding: 16px;
+}
+
+.hero-section {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #F9FAF9;
+    font-weight: 900;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+}
+
+.container-title {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.container-cards {
+    display: flex;
+    align-items: center;
+}
+
+.card img {
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+    padding: 20px;
+    width: 150px;
+    min-height: 150px;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 500px;
+    display: flex;
+    align-content: center;
+
+}
+
+.footer {
+    text-align: center;
 }
